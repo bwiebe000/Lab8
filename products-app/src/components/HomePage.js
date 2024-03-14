@@ -23,7 +23,7 @@ const styles = {
     
 const HomePage = () => {
      return (
-        <div style ={ styles.container } >
+        <div style ={ styles.container }>
             {/* <h2 > Welcome to Our Project </ h2 >
             <p > This project is designed to showcase our abilities to work with
                     React , including state management , routing , and interacting
@@ -48,7 +48,7 @@ const HomePage = () => {
                     </ tr >
                 </tbody >
             </table > */}
-     </div >
+     </div>
         ) ;
      };
     

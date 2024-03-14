@@ -45,7 +45,7 @@ const ProductDetails = () => {
     <div className="container mt-4">
       <div className="row">
         <div className="col-md-4 d-flex justify-content-center align-items-start">
-          <img src={product.thumbnail} alt={product.title} className="img-fluid" />
+          <img src={product.thumbnail} alt={product.title} className="img-fluid"/>
         </div>
         <div className="col-md-8">
           <h2>{product.title}</h2>
