@@ -1,3 +1,12 @@
+/*
+=========================================================
+Name : ProductForm.js
+Assignment : Lab 8 , Exercise C
+Author ( s ) : Brayden Wiebe, Nader Naboulsi
+Submission : March 13 , 2024
+Description : React .
+=========================================================
+*/
 import React, { useState, useEffect } from 'react';
 import { addProduct, editProduct, getProductDetails } from '../services/apiService';
 import { useProductsContext } from '../context/ProductsContext';
@@ -74,7 +83,7 @@ const ProductForm = () => {
     <form onSubmit={handleSubmit}>
       <div className="mb-3">
         <label htmlFor="title" className="form-label">Title:</label>
-        <input type="text" className="form-control" id="title" name="title" value={product.title} onChange={handleChange} required/>
+        <input type="text" className="form-control" id="title" name="title" value={product.title} onChange={handleChange} required />
       </div>
 
       <div className="mb-3">
@@ -84,17 +93,17 @@ const ProductForm = () => {
 
       <div className="mb-3">
         <label htmlFor="price" className="form-label">Price:</label>
-        <input type="number" className="form-control" id="price" name="price" value={product.price} onChange={handleChange} required/>
+        <input type="number" className="form-control" id="price" name="price" value={product.price} onChange={handleChange} required />
       </div>
 
       <div className="mb-3">
         <label htmlFor="brand" className="form-label">Brand:</label>
-        <input type="text" className="form-control" id="brand" name="brand" value={product.brand} onChange={handleChange}/>
+        <input type="text" className="form-control" id="brand" name="brand" value={product.brand} onChange={handleChange} />
       </div>
 
       <div className="mb-3">
         <label htmlFor="category" className="form-label">Category:</label>
-        <input type="text" className="form-control" id="category" name="category" value={product.category} onChange={handleChange}/>
+        <input type="text" className="form-control" id="category" name="category" value={product.category} onChange={handleChange} />
       </div>
 
       <button type="submit" className="btn btn-primary">Save Product</button>

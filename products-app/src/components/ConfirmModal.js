@@ -1,3 +1,12 @@
+/*
+=========================================================
+Name : ConfirmModal.js
+Assignment : Lab 8 , Exercise C
+Author ( s ) : Brayden Wiebe, Nader Naboulsi
+Submission : March 13 , 2024
+Description : React .
+=========================================================
+*/
 import React from 'react';
 
 const ConfirmModal = ({ show, onClose, onConfirm, title, children }) => {

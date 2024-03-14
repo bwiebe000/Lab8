@@ -1,3 +1,12 @@
+/*
+=========================================================
+Name : ProductList.js
+Assignment : Lab 8 , Exercise C
+Author ( s ) : Brayden Wiebe, Nader Naboulsi
+Submission : March 13 , 2024
+Description : React .
+=========================================================
+*/
 // src/components/ProductList.js
 import React, { useEffect, useState } from 'react';
 import { fetchProducts } from '../services/apiService';

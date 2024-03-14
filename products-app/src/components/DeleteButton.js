@@ -1,3 +1,12 @@
+/*
+=========================================================
+Name : DeleteButton.js
+Assignment : Lab 8 , Exercise C
+Author ( s ) : Brayden Wiebe, Nader Naboulsi
+Submission : March 13 , 2024
+Description : React .
+=========================================================
+*/
 import React, { useState } from 'react';
 import { removeProduct } from '../services/apiService';
 import ConfirmModal from './ConfirmModal';

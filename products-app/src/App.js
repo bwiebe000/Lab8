@@ -1,3 +1,12 @@
+/*
+=========================================================
+Name : App.js
+Assignment : Lab 8 , Exercise C
+Author ( s ) : Brayden Wiebe, Nader Naboulsi
+Submission : March 13 , 2024
+Description : React .
+=========================================================
+*/
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { ProductsProvider } from './context/ProductsContext'; // Adjust the import path as necessary
@@ -10,7 +19,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faList, faPlus } from '@fortawesome/free-solid-svg-icons';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-
 
 function App() {
   return (
@@ -62,5 +70,4 @@ function App() {
   );
 }
 
-export default App ;
-
+export default App;
