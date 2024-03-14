@@ -1,5 +1,4 @@
 .App {
-<<<<<<< HEAD
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -17,16 +16,6 @@
 
 .navbar {
   background-color: #333740; /* Slightly lighter than the app background for contrast */
-=======
-  background-color : #282c34 ;
-  min-height : 100vh ;
-  display : flex ;
-  flex-direction : column ;
-  align-items : start ;
-  justify-content : start ;
-  font-size : calc(10px + 2vmin ) ;
-  color : white ;
->>>>>>> 4a6cda5682d254e23ba57d0b61ae188a6832de63
 }
 
 .nav-link {
