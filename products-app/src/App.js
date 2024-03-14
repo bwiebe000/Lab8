@@ -11,6 +11,7 @@ import { faHome, faList, faPlus } from '@fortawesome/free-solid-svg-icons';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
+
 function App() {
   return (
     <div className="App">
@@ -61,4 +62,5 @@ function App() {
   );
 }
 
-export default App;
+export default App ;
+
